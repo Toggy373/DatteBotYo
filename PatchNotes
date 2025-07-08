@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DatteBotYo Patch Notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        h1, h2 {
+            color: #00d2ff;
+        }
+        .note {
+            background-color: #1e1e1e;
+            border-left: 4px solid #00d2ff;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        code {
+            background: #333;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        a {
+            color: #00d2ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>DatteBotYo Patch Notes</h1>
+    <h2>v1.0.0 - July 7, 2025</h2>
+    <div class="note">
+        <ul>
+            <li> Initial Public Release</li>
+        </ul>
+    </div>
+
+    <h2>v1.1.1 - July 7, 2025</h2>
+    <div class="note">
+        <ul>
+            <li> Fixed issue with discord character limit. Jutsu/Feats over the 2000 character discord limit will break them up and send multiple messages </li>
+            <li> Corrected logic to include ryo amount on sheet command </li>
+        </ul>
+        <p><strong>v1.3.1</strong> - Statroll functionality added</p>
+    </div>
+
+    <footer>
+        Want to contribute or report a bug? Visit the <a href="https://discord.gg/AXC63XgFWG">discord server</a>.
+    </footer>
+</body>
+</html>
